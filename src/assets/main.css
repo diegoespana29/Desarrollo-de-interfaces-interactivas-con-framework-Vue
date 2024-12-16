@@ -1,0 +1,26 @@
+/* body, html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    background-color: #363b81;
+  } */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P", cursive; /* Tipografía temática */
+    background: linear-gradient(
+      180deg,
+      #87cefa, /* Azul cielo claro */
+      #ffeb99
+    ); /* Degradado cielo */
+    min-height: 100vh; /* Asegura que el degradado cubra toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-attachment: fixed; /* Fija el fondo para evitar desplazamiento */
+  }
+  
+  
